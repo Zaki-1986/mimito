@@ -1,0 +1,148 @@
+﻿@charset "utf-8";
+@media screen and (max-width: 768px) {
+  /* 主区 */
+  .total {
+    width: 100%;
+  }
+  /* 页头 */
+  #header {
+    width: 100%;
+  }
+  .head {
+    text-align: center;
+  }
+  .head .logo {
+    float: none;
+    margin: 0 auto;
+  }
+  .head .banner {
+    display: none;
+  }
+  /* 菜单 */
+  #menu {
+    height: auto;
+    background-image: none;
+    background-color: #562260;
+    padding: 1px 10px;
+  }
+  #menu ul {
+    width: 100% !important;
+    margin: 6px 0 6px 0 !important;
+    float: none !important;
+    font-size: 0 !important;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 3px !important;
+    padding-left: 8px !important;
+    box-sizing: border-box;
+  }
+  #menu ul li {
+    float: none !important;
+    display: inline-block !important;
+    width: 25% !important;
+    margin: 0 !important;
+    padding-bottom: 3px !important;
+  }
+  #menu ul li a {
+    font-size: 13px !important;
+  }
+  #menu .menu04 {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+  }
+  /* 内容菜单 */
+  #menu2 {
+    width: 715px;
+    height: 51px;
+    background-image: url(../images/menu2_bg.jpg);
+    background-repeat: no-repeat;
+    float: right;
+    font-size: 14px;
+    color: #FFF;
+    padding-left: 15px;
+    padding-top: 9px;
+    margin-right: 20px;
+    font-family: "Microsoft YaHei UI";
+  }
+  /* 顶部插件 */
+  .top {
+    width: 100%;
+  }
+  .top .titlemap {
+    display: none;
+  }
+  .jiaodian1 {
+    display: none;
+  }
+  /* 正文左边 */
+  .main .left {
+    float: none;
+    width: 100%;
+  }
+  .new {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+  .new .newstop {
+    width: 312px;
+    height: 52px;
+    margin: 0 auto 0 auto;
+  }
+  /* 正文左边-首页 */
+  .jiaodian1 {
+    float: none;
+  }
+  .righttj {
+    border: 1px solid #FF99CC;
+    float: none;
+    width: auto;
+    margin: 5px;
+    box-sizing: border-box;
+  }
+  .righttj .list_img {
+    text-align: center;
+  }
+  .righttj .list_img li {
+    display: inline-block;
+    float: none;
+    margin: 0 5px;
+  }
+  /* 正文左边-栏目 */
+  .node {
+    float: none;
+    width: 100%;
+    border: 1px solid #FF99CC;
+    box-sizing: border-box;
+  }
+  .node .title h2 {
+    width: auto;
+  }
+  .node .pic .picsrc {
+    float: none;
+    margin-right: 0;
+    text-align: center;
+  }
+  .node .pic .picinfo {
+    text-align: center;
+    float: none;
+    width: auto;
+  }
+  .node .pic .picinfo p {
+    text-align: left;
+  }
+  .node .box {
+    padding-left: 5px;
+  }
+  /* 正文侧边 */
+  .main .right {
+    float: none;
+    width: 100%;
+  }
+  /* 底部 */
+  .footer {
+    width: 100%;
+  }
+  .links {
+    display: none;
+  }
+}
