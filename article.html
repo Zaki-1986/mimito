@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{field:title} - {field:cname} | 女人街</title>
+<meta name="keywords" content="{field:keywords}">
+<meta name="description" content="{field:description}">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/style_sp.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/func.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?bf25954cabe4c73ec906803a615ff590";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- 请置于所有广告位代码之前 -->
+<script src="http://dup.baidustatic.com/js/ds.js"></script>
+</head>
+<body>
+<!--顶部插件-->
+
+<div id="header">
+  <!--页头-->
+  <div class="head">
+<a href="{sys:indexview}"><img src="images/logo3.gif" alt="LOGO" width="177" height="63" class="logo"  /></a>
+<div id="menu2">
+<ul class="menu01">
+<li><a href="/dapei/">学搭配</a></li>
+<li><a href="/korea-cloth/">韩国服饰</a></li>
+<li><a href="/Euro_dress/">欧美风</a></li>
+<li><a href="/jiepai/">街 拍</a></li>
+<li><a href="/accessories/">配 饰</a></li>
+<li><a href="/diary/">穿衣秀</a></li>
+<li><a href="/japan-fashion/">日本潮流</a></li>
+<li><a href="/nanrenzhuang/">男人装</a></li>
+<li><a href="/neiyi/">内 衣</a></li>
+<li><a href="/shoes&amp;bag/">鞋 包</a></li>
+</ul>
+
+<ul class="menu02">
+<li><a href="/travel/">旅 游</a></li>
+<li><a href="/foods/">美 食</a></li>
+<li><a href="/home/">家 居</a></li>
+<li><a href="/shopping/">导 购</a></li>
+<li><a href="/newcloth/">奢 品</a></li>
+<li><a href="/idea/">创 意</a></li>
+<li><a href="/baby/">亲 子</a></li>
+<li><a href="/zhichang/">职 场</a></li>
+<li><a href="/xingzuo/">星 座</a></li>
+<li><a href="/healthy/">健 康</a></li>
+
+</ul>
+
+<ul class="menu03">
+<li><a href="/meironghufu/">护 肤</a></li>
+<li><a href="/faxing/">发 型</a></li>
+<li><a href="/fit/">减 肥</a></li>
+<li><a href="/meijia/">美 甲</a></li>
+</ul>
+
+<ul class="menu04">
+<li><a href="/superstar/">八 卦</a></li>
+<li><a href="/xwrd/">热 点</a></li>
+<li><a href="/news/">资 讯</a></li>
+<li><a href="/zhekou/">折 扣</a></li>
+</ul>
+</div>
+</div>
+<!--banner-->
+
+
+</div>
+
+<div class="total">
+<!--正文-->
+<div class="main">
+<div class="left2">
+<!--当前路径-->
+<div class="sitepath3">{tag:sitepath}</div> 
+
+<div class="content">
+
+<h1>{field:title}</h1>
+
+<div class="info2" id="artinfo">
+www.mimito.com.cn　　{if:len("{field:author}")>0}{field:createtime $format=20yy-mm-dd}　　来源：{field:source}{end if}
+</div>
+
+<div class="content_01">
+{field:content}
+</div>
+
+
+<div class="page2">{tag:page}</div>
+
+<div class="m-pop15">
+<!-- 广告位：内页翻页广告位 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '4503402',
+        container: s,
+        size: '640,90',
+        display: 'inlay-fix'
+    });
+})();
+</script>
+</div>
+<div class="pre_art">
+上一篇：{tag:pre}<br />
+下一篇：{tag:next}
+</div>
+
+<h2>编辑推荐:</h2>
+<ul class="more">
+<!--Pic:{$Row=8 $Type=images $cid={field:cid} $Order=[ID] Desc }-->
+<li><a href="[Pic:Aurl]" target="_blank" title="[Pic:Title]"><img src='[Pic:Indexpic]' width="130" height="149" />
+<p>[Pic:Title $len=38]</p></a></li>
+<!--pic-->
+</ul>
+
+<div class="share">
+
+</div>
+
+<h2>猜你喜欢:</h2>
+<ul class="xiangguang">
+<!--commend:{ $row=14 $cid={field:cid} $mode=commend }-->
+<li>·<a href="[commend:aurl]" target="_blank">[commend:titlex $len=36]</a></li>
+<!--commend-->
+</ul>
+
+
+</div>
+</div>
+
+
+<div class="travel_right">
+<div class="share2"><script type="text/javascript" src='/pop/t2.js'></script><script type="text/javascript" src='/pop/t3.js'></script></div>
+<h3>最新{field:cname}推荐</h3>
+<ul class="list001">
+<!--List:{ $Row=10 $cid={field:cid} $Order=[ID] Desc }-->
+<li><a href="[list:aurl]" target="_blank">[list:titlex $len=42]</a></li>
+<!--list-->
+</ul>
+<div class="share2">
+<!-- 广告位：T2 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '2013948',
+        container: s,
+        size: '300,250',
+        display: 'inlay-fix'
+    });
+})();
+</script>
+</div>
+<h3>热点图片推荐</h3>
+<ul class="list002">
+<!--Pic:{$Row=4 $Type=images $cid={field:cid} $Order=[Order] Desc }-->
+<li><a href='[Pic:Aurl]' target="_blank"><img src='[Pic:Indexpic]' width="140" height="160" border="0" alt="[Pic:Title]" /></a>
+<p><a href='[Pic:Aurl]' target="_blank">[Pic:Title $len=46]</a></p></li>
+<!--pic-->
+</ul>
+
+<h3>时尚快报</h3>
+<ul class="list001">
+<!--List:{ $Row=10 $Cid=1,2,3,6,25,21,30,8 $Type=Images $Order=[Modifytime] Desc }-->
+<li><a href='[list:aurl]' target="_blank">[list:titlex $len=44]</a></li>
+<!--list-->
+</ul>
+
+<div class="share2">
+<!-- 广告位：T5 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '2013954',
+        container: s,
+        size: '300,250',
+        display: 'inlay-fix'
+    });
+})();
+</script>
+</div>
+
+<h3>本周热门阅读</h3>
+<ul class="list001">
+<!--list:{$Table=Content $row=10 $Where=datediff('d',createtime,now())<=10 $Order=[views] Desc }-->
+<li><a href='[list:aurl]' target="_blank">[list:titlex $len=44]</a></li>
+<!--list-->
+</ul>
+
+</div>
+</div>
+
+<!--底部通栏-->  
+<div class="a950">
+
+</div>
+</div>
+
+<!--页尾-->
+<div class="footer">
+<div class="foot">
+{my:copyright}</div>
+</div>
+
+<span style="display:none;">浏览：<script src="{sys:plusurl}count/js.asp?id={field:id}"language="javascript"></script></span>
+</body>
+</html>

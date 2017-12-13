@@ -147,4 +147,71 @@
   .links {
     display: none;
   }
+  .sitepath3 {
+    line-height: 30px;
+    padding-left: 10px;
+  }
+  /* 新闻list左边 */
+  .main .left_list_news {
+    float: none;
+    width: 100%;
+    _width: 100%;
+    box-sizing: border-box;
+    border-right: none;
+  }
+  /*-----------------------------------listnew start------------------------------------------*/
+  .list_cont {
+    margin: 10px 5px 0 5px;
+  }
+  .list_cont li {
+    vertical-align: middle;
+  }
+  .list_cont .title2 {
+    width: 72%;
+    padding-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .list_cont .time {
+    float: none;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  .travel_page {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .travel_right {
+    float: none;
+    width: 100%;
+  }
+  .travel_right .more {margin:0; text-align: center;}
+  .travel_right .more li {float:none; margin:10px 5px 0 5px; display: inline-block;}
+  .travel_right .more li p {
+    text-align: left;
+}
+.travel_right .list001 li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+  /* 分页2 */
+  .page2 a,.page2 span {
+    padding: 3px 7px 3px 7px;
+  }
+  .page2 span {
+    display: none;
+    padding: 3px 7px 3px 7px;
+  }
+  .pageline3 {
+    margin-bottom: 20px;
+  }
+  .page2 a:last-child {
+    display: none;
+  }
+  
 }
