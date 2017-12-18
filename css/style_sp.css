@@ -18,6 +18,9 @@
   .head .banner {
     display: none;
   }
+  .head.head_article {
+    display: none;
+  }
   /* 菜单 */
   #menu,
   #menu2 {
@@ -182,7 +185,7 @@
     text-align: center;
     font-size: 0;
     margin: 10px 0 0 0;
-}
+  }
   .travel_right .list002 li {
     font-size: 13px;
     float: none;
@@ -190,7 +193,7 @@
     width: 140px;
     margin: 7px;
     text-align: left;
-}
+  }
   /* 底部 */
   .footer {
     width: 100%;
