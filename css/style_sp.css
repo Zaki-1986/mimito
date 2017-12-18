@@ -19,13 +19,22 @@
     display: none;
   }
   /* 菜单 */
-  #menu {
+  #menu,
+  #menu2 {
+    width: 100%;
     height: auto;
     background-image: none;
     background-color: #562260;
     padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: left;
   }
-  #menu ul {
+  #menu2 {
+    margin-top: 9px;
+  }
+  #menu ul,
+  #menu2 ul {
     width: 100% !important;
     margin: 0 !important;
     float: none !important;
@@ -34,36 +43,26 @@
     padding-left: 8px !important;
     box-sizing: border-box;
   }
-  #menu ul li {
+  #menu ul li,
+  #menu2 ul li {
     float: none !important;
     display: inline-block !important;
     width: 25% !important;
     margin: 0 !important;
     padding-bottom: 3px !important;
   }
-  #menu ul li a {
+  #menu ul li a,
+  #menu2 ul li a {
     font-size: 13px !important;
   }
-  #menu .menu02 {
+  #menu .menu02,
+  #menu2 .menu02 {
     display: none;
   }
-  #menu .menu04 {
+  #menu .menu04,
+  #menu2 .menu04 {
     border-bottom: none !important;
     padding-bottom: 0 !important;
-  }
-  /* 内容菜单 */
-  #menu2 {
-    width: 715px;
-    height: 51px;
-    background-image: url(../images/menu2_bg.jpg);
-    background-repeat: no-repeat;
-    float: right;
-    font-size: 14px;
-    color: #FFF;
-    padding-left: 15px;
-    padding-top: 9px;
-    margin-right: 20px;
-    font-family: "Microsoft YaHei UI";
   }
   /* 顶部插件 */
   .top {
@@ -135,11 +134,63 @@
   .node .box {
     padding-left: 5px;
   }
+  .main {
+    padding: 0;
+  }
   /* 正文侧边 */
   .main .right {
     float: none;
     width: 100%;
   }
+  .main .left2 {
+    padding: 0 5px 20px 5px;
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .main .left2 .content h1 {
+    font-size: 20px;
+  }
+  .content_01 {
+    padding: 10px;
+  }
+  .content_01 p {
+    font-size: 14px;
+  }
+  .content_01 img {
+    max-width: 90%;
+  }
+  .main .left2 .content .more {
+    text-align: center;
+    font-size: 0;
+  }
+  .main .left2 .content .more li {
+    float: none;
+    display: inline-block;
+    margin: 6px;
+    text-align: left;
+  }
+  .main .left2 .content .more li a {
+    padding: 5px;
+    font-size: 13px;
+  }
+  .main .left2 .content .xiangguang li {
+    width: 100%;
+    float: none;
+  }
+  .travel_right .list002 {
+    text-align: center;
+    font-size: 0;
+    margin: 10px 0 0 0;
+}
+  .travel_right .list002 li {
+    font-size: 13px;
+    float: none;
+    display: inline-block;
+    width: 140px;
+    margin: 7px;
+    text-align: left;
+}
   /* 底部 */
   .footer {
     width: 100%;
@@ -187,20 +238,29 @@
   .travel_right {
     float: none;
     width: 100%;
+    box-sizing: border-box;
+    padding: 0 5px;
   }
-  .travel_right .more {margin:0; text-align: center;}
-  .travel_right .more li {float:none; margin:10px 5px 0 5px; display: inline-block;}
+  .travel_right .more {
+    margin: 0;
+    text-align: center;
+  }
+  .travel_right .more li {
+    float: none;
+    margin: 10px 5px 0 5px;
+    display: inline-block;
+  }
   .travel_right .more li p {
     text-align: left;
-}
-.travel_right .list001 li {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
+  }
+  .travel_right .list001 li {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
   /* 分页2 */
-  .page2 a,.page2 span {
+  .page2 a,
+  .page2 span {
     padding: 3px 7px 3px 7px;
   }
   .page2 span {
@@ -213,5 +273,30 @@
   .page2 a:last-child {
     display: none;
   }
-  
+  .travel {
+    height: auto;
+    margin: 10px;
+    padding-bottom: 10px;
+  }
+  .travel img {
+    margin-right: 10px;
+    width: 130px;
+    height: 148px;
+  }
+  .travel h2 {
+    font-size: 14px;
+  }
+  .travel p {
+    font-size: 12px;
+    line-height: 140%;
+    margin-top: 5px;
+  }
+  .travel span {
+    line-height: 30px;
+  }
+  .pre_art {
+    font-size: 13px;
+    margin: 10px;
+    width: auto;
+  }
 }
